@@ -1,0 +1,60 @@
+/_UpgradeReport_Files
+/ExternalAssets/Tools/CacheServer/cache
+/iWarcraftSettings/local
+/Temp
+/Library
+/obj
+/Build
+/*.csproj
+/*.csproj.user
+/*.unityproj
+/*.sln
+/*.userprefs
+*.suo
+*.sublime_session
+/UpgradeLog.htm
+/UpgradeLog.XML
+/*.pidb
+/iWarcraft.git.userprefs
+/ExternalAssets/Server/iWarcraft Server.v11.suo
+/ExternalAssets/Tools/FreeImage/Wrapper/FreeImage.NET/cs/Library/obj
+/ExternalAssets/Tools/FreeImage/Wrapper/FreeImage.NET/cs/SourceFileMerger/bin
+/ExternalAssets/Tools/FreeImage/Wrapper/FreeImage.NET/cs/SourceFileMerger/obj
+/ExternalAssets/Tools/FreeImage/Wrapper/FreeImage.NET/cs/UnitTest/bin
+/ExternalAssets/Tools/FreeImage/Wrapper/FreeImage.NET/cs/UnitTest/obj
+/ExternalAssets/Tools/FreeImage/Wrapper/FreeImage.NET/cs/Bin
+/ExternalAssets/Tools/FreeImage/Wrapper/FreeImage.NET/cs/Samples/*/bin
+/ExternalAssets/Tools/FreeImage/Wrapper/FreeImage.NET/cs/Samples/*/obj
+/ExternalAssets/Tools/DockPanel/*/bin
+/ExternalAssets/Tools/DockPanel/*/obj
+/ExternalAssets/Tools/DockPanel/*.suo
+/ExternalAssets/Tools/YamlDotNet/*/bin
+/ExternalAssets/Tools/YamlDotNet/*/obj
+/ExternalAssets/Tools/YamlDotNet/YamlDotNet.v11.suo
+/ExternalAssets/Tools/iWarcraft/iWarcraft.v11.suo
+/ExternalAssets/Tools/iWarcraft/UI/bin
+/ExternalAssets/Tools/iWarcraft/UI/obj
+/ExternalAssets/Tools/iWarcraft/DebugUI/bin
+/ExternalAssets/Tools/iWarcraft/DebugUI/obj
+/ExternalAssets/Tools/iWarcraft/addon-bin
+/ExternalAssets/Server/iWarcraft Common/obj
+/ExternalAssets/Server/iWarcraft Common/bin
+/ExternalAssets/Server/Server/obj
+/ExternalAssets/Server/Server/bin
+/ExternalAssets/Server/NodeServer/obj
+/ExternalAssets/Server/NodeServer/bin
+/ExternalAssets/Server/iWarcraft Server.v11.suo
+/ExternalAssets/Server/SimpleClient/obj
+/ExternalAssets/Server/SimpleClient/bin
+/ExternalAssets/Server/zlib/obj
+/ExternalAssets/Server/zlib/bin
+/ExternalAssets/Tools/iWarcraft/Editor/bin
+/ExternalAssets/Tools/iWarcraft/Editor/obj
+/Assets/StreamingAssets/bundle
+/Assets/StreamingAssets/bundle.meta
+/Assets/Work Area/Build/Version
+/Assets/Work Area/Build/Version.meta
+/Assets/Work Area/Designer/Resources/Version
+/Assets/Work Area/Designer/Resources/Version.meta
+/Assets/Work Area/Designer/Config/Assetbundle
+/Assets/Work Area/Designer/Config/Assetbundle.meta
