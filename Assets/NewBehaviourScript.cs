@@ -27,6 +27,10 @@ public class NewBehaviourScript : MonoBehaviour
         AddGesture("右左(--)", new int[] { 0, 4, });
         AddGesture("上下(||)", new int[] { 2, 6, });
         AddGesture("下上(||)", new int[] { 6, 2, });
+        AddGesture("<", new int[] { 5, 7, });
+        AddGesture("<", new int[] { 3, 1, });
+        AddGesture(">", new int[] { 7, 5, });
+        AddGesture(">", new int[] { 1, 3, });
         AddGesture("Z", new int[] { 0, 5, 0, });
         AddGesture("√", new int[] { 7, 1, });
         AddGesture("^", new int[] { 1, 7, });
