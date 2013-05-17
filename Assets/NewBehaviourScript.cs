@@ -18,13 +18,17 @@ public class NewBehaviourScript : MonoBehaviour
     {
         manager = new GestureManager(50);
 
-        AddGesture("0", new int[] { 4, 5, 6, 7, 0, 1, 2, 3, });
-        AddGesture("1", new int[] { 6, });
-        AddGesture("1", new int[] { 2, });
-        AddGesture("√", new int[] { 7, 1, });
+        AddGesture("圆圈", new int[] { 4, 5, 6, 7, 0, 1, 2, 3, });
+        AddGesture("下(|)", new int[] { 6, });
+        AddGesture("上(|)", new int[] { 2, });
+        AddGesture("左(-)", new int[] { 4, });
+        AddGesture("右(-)", new int[] { 0, });
+        AddGesture("左右(--)", new int[] { 4, 0, });
+        AddGesture("右左(--)", new int[] { 0, 4, });
+        AddGesture("上下(||)", new int[] { 2, 6, });
+        AddGesture("下上(||)", new int[] { 6, 2, });
         AddGesture("Z", new int[] { 0, 5, 0, });
-        AddGesture("一", new int[] { 0, });
-        AddGesture("一", new int[] { 4, });
+        AddGesture("√", new int[] { 7, 1, });
         AddGesture("^", new int[] { 1, 7, });
 
         manager.Committed += manager_Committed;
@@ -33,7 +37,7 @@ public class NewBehaviourScript : MonoBehaviour
     void AddGesture(string content, int[] data)
     {
         if (!_all.Contains(content))
-            _all += content + " ";
+            _all += content + " ___ ";
         manager.AddGesture(content, data);
     }
 
@@ -93,7 +97,8 @@ public class NewBehaviourScript : MonoBehaviour
 
     void OnGUI()
     {
-        GUI.Label(new Rect(0f, 0f, Screen.width, 50f), _all);
-        GUI.Label(new Rect(0f, 50f, Screen.width, 50f), _lastMatch);
+        GUI.Label(new Rect(0f, 0f, Screen.width, 50f), "鼠标左键在空白处划出手势,松开鼠标后进行识别");
+        GUI.Label(new Rect(0f, 50f, Screen.width, 50f), _all);
+        GUI.Label(new Rect(0f, 100f, Screen.width, 50f), _lastMatch);
     }
 }
